@@ -1,0 +1,28 @@
+#todo-form {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#todo-form input {
+    width: 30%;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid white;
+    font-size: large;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+#todo-form input:focus {
+    animation: none;
+    outline: none;
+}
+
+#todo-form input::placeholder {
+    color: white;
+}
